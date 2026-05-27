@@ -5,61 +5,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VITAL Public Curriculum</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Playfair+Display:wght@400;700&display=swap');
+
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f4f9f4;
             color: #333;
+            line-height: 1.6;
         }
 
         header {
             text-align: center;
-            background-color: #4caf50;
-            color: white;
-            padding: 1rem 0;
+            background: linear-gradient(135deg, #81c784, #66bb6a);
+            color: #fff;
+            padding: 2rem 0;
+        }
+
+        header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            margin: 0;
+        }
+
+        header p.subtitle {
+            margin: 0;
+            font-size: 1.2rem;
+            opacity: 0.9;
         }
 
         main {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 1rem;
-        }
-
-        h1, h2 {
-            color: #2e7d32;
-        }
-
-        h1 {
-            margin-bottom: 0;
-        }
-
-        p.subtitle {
-            margin-top: 0;
-            font-size: 1.1rem;
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
         }
 
         .unit {
             background-color: white;
-            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-            padding: 15px;
-            margin-bottom: 20px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
         }
 
         .unit h3 {
             margin-top: 0;
+            font-family: 'Playfair Display', serif;
+            color: #2e7d32;
         }
 
         .unit ul {
-            padding-left: 20px;
+            padding-left: 1.5rem;
+            list-style-type: disc;
+        }
+
+        .unit ul li {
+            margin-bottom: 0.5rem;
         }
 
         footer {
             text-align: center;
-            margin: 20px 0;
+            margin: 2rem 0;
             font-size: 0.9rem;
             color: #666;
+        }
+
+        footer a {
+            color: #2e7d32;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -136,7 +154,7 @@
         </section>
     </main>
     <footer>
-        &copy; 2026 VITAL Public Curriculum. All Rights Reserved.
+        &copy; 2026 VITAL Public Curriculum. All Rights Reserved. <a href="https://github.com/vitalisabella7/VITALcir">GitHub Repository</a>
     </footer>
 </body>
 </html>
